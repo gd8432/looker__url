@@ -1,2 +1,4 @@
 six==1.16.0
-Flask==3.0.0
+Flask
+watchdog
+
