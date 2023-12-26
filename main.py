@@ -5,7 +5,11 @@ import os
 app = Flask(__name__)
 
 
-@app.route('/', methods=['GET'])
+@app.route('/')
+def main():
+	return ' HELLO WORLD '
+
+@app.route('/looker', methods=['GET'])
 def test_api():
     # Get parameters from the URL
     External_user_id = request.args.get('External_user_id')
