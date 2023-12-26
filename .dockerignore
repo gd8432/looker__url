@@ -1,0 +1,25 @@
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+Thumbs.db
+.DS_Store
+
+# Exclude version control directories and files
+.git/
+.gitignore
+.gitattributes
+
+# Exclude temporary and cache files
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Exclude development and build artifacts
+node_modules/
+*.lock
+*.json
+*.npm
